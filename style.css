@@ -5,9 +5,9 @@ body{
     background-size: cover;
 }
 .contenedor {
-    max-width: 540px;
+    max-width: 600px;
     width: 600px;
-    height: 350px;
+    height: 370px;
     text-align: center;
     padding: 20px 20px 50px;
     margin: 5% auto 0;
@@ -17,7 +17,7 @@ body{
 box-shadow: 3px 7px 16px 2px rgba(0, 0, 0, 0.182);
 }
 .titulo{
-    text-align: center;
+    justify-content: left;
     padding-top: 60px;
     color: rgb(69, 68, 68);
     text-shadow: 0px 2px 7px #373b3d;
@@ -50,14 +50,18 @@ form input[type="submit"]{
     width: 50%;
     margin: 0 auto;
     cursor: pointer;
-    background-color: #99d4df;
-    color: #fff;
-    font-weight: 600;
+    background-color: #ffffff;
+    color: #1a1a1b;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
 }
 
 form input[type="submit"]:hover{
     background-color: #e1f1f4;
     color: #373b3d;
+    
 }
 
 .clima{
@@ -66,4 +70,9 @@ form input[type="submit"]:hover{
 }
 #pais{
     display: none;
+}
+.humedad{
+    color: rgb(251, 241, 228);
+    text-shadow: 0px 2px 7px #373b3d;
+    
 }
